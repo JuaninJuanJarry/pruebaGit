@@ -7,13 +7,13 @@ package operaciones;
 public class Aritmetica {
     //Atributos de la clase
 
-    int a;
-    int b;
+    int number1;
+    int number2;
 
     //metodo
     public void sumar(int a,int b) {
         try {
-            System.out.println("resultado = " + (a+b));
+            System.out.println("resultado = " + (number1 + number2));
         } catch (Exception e) {
             System.out.println("Error: " + e.toString());
         }
